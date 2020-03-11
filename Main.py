@@ -1,10 +1,8 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
-import SegundoPeq.py
-import MasPeq.py
-import grande.py
-import ElGrande.py
 
+from ElGrande import M2G
+from grande import MG
 
 list=[]
 num=(int(input('de cuantos numeros quieres la lista?')))
