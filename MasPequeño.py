@@ -1,4 +1,4 @@
-def segundoPequeño(lista):
+def segundoPequeño(list):
     lista.sort()
-    print(lista[0])
-segundoPequeño(lista)
+    print(list[0])
+segundoPequeño(list)
