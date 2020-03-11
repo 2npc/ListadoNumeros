@@ -1,6 +1,7 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
-
+import SegundoPequeño
+import MasPequeño
 
 
 
