@@ -1,4 +1,4 @@
 def pequeño(list):
-    lista.sort()
+    list.sort()
     print(list[0])
 pequeño(list)
