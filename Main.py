@@ -1,9 +1,9 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
-import SegundoPeq
-import MasPeq
-import grande
-import ElGrande
+import SegundoPeq.py
+import MasPeq.py
+import grande.py
+import ElGrande.py
 
 
 list=[]
