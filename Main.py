@@ -1,7 +1,7 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
 
-from MasPeq import pequeño
+from MasPeq import pq
 from SegundoPeq import segundoPequeño
 from ElGrande import M2G
 from grande import MG
@@ -23,7 +23,7 @@ while z!=0:
     z=int(input('elige una opcion: '))
 
     if(z==1):
-        pequeño(list)
+        pq(list)
     if(z==2):
         MG(list)
     if (z == 3):
