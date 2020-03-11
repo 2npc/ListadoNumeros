@@ -1,6 +1,8 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
 
+from Suma import suma
+from multi import multi
 from Media import med
 from MasPeq import pq
 from SegundoPeq import segundoPequeño
@@ -20,6 +22,8 @@ while z!=0:
     print('*3. el 2º numero más pequeño*')
     print('*4. el 2º numero más grande *')
     print('*5. sacar media de la lista *')
+    print('*6. sumar la lista          *')
+    print('*7. multiplicar la lista    *')
     print('*0. salir del programa      *')
     print('*****************************')
     z=int(input('elige una opcion: '))
@@ -34,4 +38,7 @@ while z!=0:
         M2G(list)
     if (z==5):
         med(list)
-
+    if (z == 6):
+        suma(list)
+    if (z == 7):
+        multi(list)
