@@ -22,7 +22,7 @@ while z!=0:
     print('*****************************')
     z=int(input('elige una opcion: '))
 
-     if(z==1):
+    if(z==1):
         pequeño(list)
     if(z==2):
         MG(list)
