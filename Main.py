@@ -30,3 +30,4 @@ while z!=0:
         segundoPequeño(list)
     if (z == 4):
         M2G(list)
+
