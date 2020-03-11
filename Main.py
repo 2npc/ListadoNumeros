@@ -1,6 +1,8 @@
 #programa hecho por Kevin G y Jon L
 #es un programa que te compara los numeros de una lista creada en este mismo archivo.
 
+from MasPeq import pequeño
+from SegundoPeq import segundoPequeño
 from ElGrande import M2G
 from grande import MG
 
@@ -19,3 +21,12 @@ while z!=0:
     print('*0. salir del programa      *')
     print('*****************************')
     z=int(input('elige una opcion: '))
+
+     if(z==1):
+        pequeño(list)
+    if(z==2):
+        MG(list)
+    if (z == 3):
+        segundoPequeño(list)
+    if (z == 4):
+        M2G(list)
