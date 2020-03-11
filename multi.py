@@ -1,5 +1,5 @@
 def multi(list):
-    multiplication = 0
+    multiplication = 1
     for x in list:
         multiplication *= x
     print(multiplication)
